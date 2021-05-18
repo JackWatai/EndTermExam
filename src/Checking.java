@@ -1,5 +1,5 @@
 
-public class Checking extends Account {
+public class Checking extends Account implements depositable{
 
 	public Checking(int AccNum) {
 		super(AccNum);
@@ -11,5 +11,11 @@ public class Checking extends Account {
 		return("Checking Account Information"
 				+ "\nAccount Number: " + getAccnum()
 				+ "\nAccount Balance: " + getAccbal());
+	}
+
+	@Override
+	public void deposit(double money) {
+		// TODO Auto-generated method stub
+		
 	}
 }

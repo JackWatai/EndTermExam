@@ -1,5 +1,5 @@
 
-public class Savings extends Account{
+public class Savings extends Account implements depositable{
 	double Interest;
 	
 	public Savings(int AccNum, double Interest) {
@@ -14,6 +14,12 @@ public class Savings extends Account{
 				+ "\nAccount Number: " + getAccnum()
 				+ "\nAccount Balance: " + getAccbal()
 				+ "\nInterest Rate: " + Interest);
+	}
+
+	@Override
+	public void deposit(double money) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
