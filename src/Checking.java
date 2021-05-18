@@ -6,7 +6,7 @@ public class Checking extends Account {
 		// TODO Auto-generated constructor stub
 	}
 
-	public String toStringChecking()
+	public String toString()
 	{
 		return("Checking Account Information"
 				+ "\nAccount Number: " + getAccnum()

@@ -8,7 +8,7 @@ public class Savings extends Account{
 		// TODO Auto-generated constructor stub
 	}
 	
-	public String toStringSaving()
+	public String toString()
 	{
 		return("Savings Account Information"
 				+ "\nAccount Number: " + getAccnum()
